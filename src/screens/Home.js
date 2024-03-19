@@ -39,7 +39,7 @@ const Home = () => {
           <Feather name="navigation" style={{fontSize: 24}} />
         </View>
       </View>
-      <ScrollView>
+      <ScrollView style={{marginBottom: 30}}>
         <Stories />
         <Posts />
       </ScrollView>
